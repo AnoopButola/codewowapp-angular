@@ -1,0 +1,13 @@
+Server renders index.html as follows.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <base href="/">
+</head>
+</body>
+<app-root> Story of angular starts here...</app-root>
+</html>
+
+** From <app-root></app-root> story of angular starts.
+** 
