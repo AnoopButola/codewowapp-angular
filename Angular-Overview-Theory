@@ -10,4 +10,41 @@ Server renders index.html as follows.
 </html>
 
 ** From <app-root></app-root> story of angular starts.
-** 
+
+** Basic overview of angular is ::
+1)In angular we have modules. By default one module is provided and it is named as app.module.ts
+
+Basic structure of app.module.ts looks as mentioned below::
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { TestComponent } from './test/test.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    TestComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+NOTE:: It is kind of Main class but I need to know how boostrap property works.Since I left index.html without any 
+ng tag and nothing appeared. I was expecting by default AppComponent view shall appear which did not happened. Need to check this.
+
+
+
+2)Now in index.html we have flexibility to load any component by using the selector defined in component.
+
+3)Inside module we have differenet components, my view is we can create as many as component for different features as per d requirement.
+Since component consist of 3 parts
+    3.a)test.component.ts
+    3.b)test.component.html
+    3.c)test.component.css
+    
+
