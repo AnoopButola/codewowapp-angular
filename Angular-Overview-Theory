@@ -47,4 +47,24 @@ Since component consist of 3 parts
     3.b)test.component.html
     3.c)test.component.css
     
+4)In above example we gave the reference of below component so the view represented by this component
+  was shown on index.html page.
+  
+  import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'my-app';
+}
+
+NOTE:: @Component is a decorator which gives meta info to angular conveying that it is not  normal class but 
+Decorator class.We  can have n number of decorator and different types of decorator.
+
+Now there are some imp attributes mentioned on decorator which are just meta data for this component.
+
+     
 
