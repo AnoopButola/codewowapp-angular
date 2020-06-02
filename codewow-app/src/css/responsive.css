@@ -1,0 +1,354 @@
+/* Medium Layout: 1367px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1367px) {}
+
+
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+    .menu ul li a {
+        padding: 14px 0 22px;
+    }
+    /*home-5*/
+    .h5-hta-social h4 {
+        margin-right: 10px;
+    }
+    .h5-sc-box {
+        padding: 16px 8px;
+    }
+}
+
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+    /*home-5*/
+    .h5-logo {
+        text-align: center;
+    }
+    .h5-hc-carousel {
+        margin-top: 50px;
+    }
+    .h5-hero-content h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .h5-hc-carousel .owl-dots {
+        bottom: -60%;
+        left: 30%;
+    }
+    .h5-course-box {
+        margin: 0 0 30px;
+    }
+    .h5-counter-box {
+        margin: 0 0 30px;
+    }
+    .h5-counter-area {
+        padding: 100px 0 60px;
+    }
+    .h5ub-content {
+        padding: 5px 20px;
+    }
+    .h5-single-footer {
+        margin: 0 0 30px;
+    }
+    .h5fba-right {
+        text-align: left;
+    }
+    .h5fba-left {
+        margin: 0 0 30px;
+    }
+    .h5-hta-social h4 {
+        margin-right: 10px;
+    }
+    /*blog-standard*/
+    .sbs-c-meta p {
+        margin-right: 10px;
+    }
+    .sbs-c-meta p::after {
+        right: -10px;
+    }
+    /*blog-details*/
+    .blog-hero h2.bh-title {
+        font-size: 38px;
+        line-height: 42px;
+        padding-bottom: 44px;
+    }
+    .bd-img-content {
+        bottom: 10px;
+        left: 30px;
+    }
+    .bd-img-content h2 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .bd-img-content ul li {
+        margin-right: 10px;
+    }
+    .bd-img-content ul li::after {
+        right: -12px;
+    }
+    .bd-blockquote {
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 84px;
+    }
+    .aa-box .aa-box-img {}
+    .comment-status-text .comment-author-metadata .author {
+        margin: 18px 0 14px;
+    }
+    .comments .children li {
+        padding-left: 10px;
+    }
+    .comment-respond-box {
+        padding: 35px 30px 50px;
+    }
+
+    .contact-address {
+        margin: 0 0 30px;
+    }
+}
+
+
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .osa-banner {
+        display: none;
+    }
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+    /*home-5*/
+    .h5-hta-social {
+        margin-left: 14px;
+    }
+    .h5-hta-left {
+        margin-bottom: 20px;
+    }
+    .h5-hc-carousel {
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .h5-hc-carousel .owl-dots {
+        display: none;
+    }
+    .h5-wc-content {
+        margin: 0 0 30px;
+    }
+    .h5-cb-content {
+        padding: 21px 12px 53px;
+    }
+    .h5-course-box {
+        margin-bottom: 30px;
+    }
+    .h5-popular-course-area {
+        padding: 90px 0 65px;
+    }
+    .h5-counter-box {
+        margin: 0 0 30px;
+    }
+    .h5-counter-area {
+        padding: 100px 0 60px;
+    }
+    .h5ub-content {
+        padding: 10px;
+    }
+    .h5-single-footer {
+        margin: 0 0 30px;
+    }
+    .h5fba-left {
+        margin: 0 0 30px;
+    }
+    .h5fba-right {
+        text-align: left;
+    }
+    .h5-logo {
+        text-align: center;
+    }
+    .h5-cb-img>a img {
+        width: 100%;
+    }
+    .h5-lecturers-img>img {
+        width: 100%;
+    }
+    .h5ub-img {
+        text-align: center;
+    }
+    /*blog-standard*/
+    .sbs-c-meta p {
+        margin-right: 10px;
+    }
+    .sbs-c-meta p::after {
+        right: -10px;
+    }
+    .blog-sidebar {
+        margin: 60px auto auto;
+        width: 264px;
+    }
+    /*blog-details*/
+    .blog-hero h2.bh-title {
+        font-size: 38px;
+        line-height: 42px;
+        padding-bottom: 44px;
+    }
+    .bd-img-content {
+        left: 30px;
+    }
+    .bd-img-content h2 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .bd-img-content ul li {
+        margin-right: 10px;
+    }
+    .bd-img-content ul li::after {
+        right: -12px;
+    }
+    .bd-blockquote {
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 84px;
+    }
+    .aa-box .aa-box-img {
+        margin: 0 0 30px;
+    }
+    .comment-status-text .comment-author-metadata .author {
+        margin: 18px 0 14px;
+    }
+    .comments .children li {
+        padding-left: 10px;
+    }
+    .comment-respond-box {
+        padding: 35px 30px 50px;
+    }
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    /*home*/
+    .h5-hta-social {
+        margin-left: 14px;
+    }
+    .h5-hta-left {
+        margin-bottom: 20px;
+    }
+    .h5-hc-carousel {
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .h5-hc-carousel .owl-dots {
+        display: none;
+    }
+    .h5-wc-content {
+        margin: 0 0 30px;
+    }
+    .h5-cb-content {
+        padding: 21px 12px 53px;
+    }
+    .h5-course-box {
+        margin-bottom: 30px;
+    }
+    .h5-popular-course-area {
+        padding: 90px 0 65px;
+    }
+    .h5-counter-box {
+        margin: 0 0 30px;
+    }
+    .h5-counter-area {
+        padding: 100px 0 60px;
+    }
+    .h5ub-content {
+        padding: 10px;
+    }
+    .h5-single-footer {
+        margin: 0 0 30px;
+    }
+    .h5fba-left {
+        margin: 0 0 30px;
+    }
+    .h5fba-right {
+        text-align: left;
+    }
+    /*about*/
+    .testimonial-content-box p {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+    /*blog-standard*/
+    .sbs-c-meta p {
+        margin-right: 10px;
+    }
+    .sbs-c-meta p::after {
+        right: -10px;
+    }
+    .blog-sidebar {
+        margin: 60px 0 0;
+    }
+    .bs-title .bs-title-border {
+  bottom: 60px;
+}
+    /*blog-details*/
+    .blog-hero h2.bh-title {
+        font-size: 38px;
+        line-height: 42px;
+        padding-bottom: 44px;
+    }
+    .bd-img-content {
+        bottom: 0;
+        left: 10px;
+    }
+    .bd-img-content h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bd-img-content ul li {
+        margin-right: 10px;
+    }
+    .bd-img-content ul li::after {
+        right: -12px;
+    }
+    .bd-blockquote {
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 84px;
+    }
+    .aa-box .aa-box-img {
+        margin: 0 0 30px;
+    }
+    .comment-status-text .comment-author-metadata .author {
+        margin: 18px 0 14px;
+    }
+    .comments .children li {
+        padding-left: 10px;
+    }
+    .comment-respond-box {
+        padding: 35px 30px 50px;
+    }
+}

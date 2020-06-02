@@ -1,0 +1,32 @@
+
+
+
+<!-- showAdminLogin 
+  <p *ngIf="show">Show this only if "show" is true</p>
+  Also can tweak above using ngIf  -->
+
+<div *ngIf="userTheme">
+    <body class="home5-body">
+        <div id="preloader"> </div>
+        
+        <!--@ANoop todo create one header which will encapsulate both in one and avoid component inside header tag -->
+        <header class="h5-header">
+            <app-header1></app-header1>
+            <app-header2></app-header2>
+          </header>
+         
+           <app-footer> </app-footer>
+          </body>
+</div>
+<div *ngIf="adminTheme">
+ 
+    <body class="bg-gradient-primary">
+    <app-admin-login></app-admin-login>
+      </body>
+</div>
+
+
+
+
+
+
