@@ -10,22 +10,29 @@ import {ContactComponent} from './contact/contact.component';
 import { TrainingComponent } from './training/training.component';
 import { BootcampComponent } from './bootcamp/bootcamp.component';
 
+
 //routes created for front end
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'services', component: ServicesComponent },
-  { path: 'blog', component: BlogComponent},
-  { path:'training',component:TrainingComponent},
-  { path:'bootcamp',component:BootcampComponent},
-  { path:'contact',component:ContactComponent},
-  { path:'', redirectTo: '/home', pathMatch: 'full' },
+  // { path: 'home', component: HomeComponent },
+  // { path: 'about', component: AboutComponent },
+  // { path: 'services', component: ServicesComponent },
+  // { path: 'blog', component: BlogComponent},
+  // { path:'training',component:TrainingComponent},
+  // { path:'bootcamp',component:BootcampComponent},
+  // { path:'contact',component:ContactComponent},
+  // { path:'', redirectTo: '/home', pathMatch: 'full' },
 
 
   //below one added for admin module
   {
     path: 'admin',
     loadChildren: () => import('./admin-module/admin-module.module').then(m => m.AdminModuleModule)
+  },
+
+  {
+    path: '',
+    loadChildren: () => import('./user-module/user-module.module').then(m => m.UserModuleModule)
+
   }
 
 
