@@ -24,6 +24,8 @@ import { BootcampComponent } from './bootcamp/bootcamp.component';
 //importing the adminModule so that we can add it to the imports array below
 
 import { AdminModuleModule } from './admin-module/admin-module.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UserModuleModule } from './user-module/user-module.module';
 
 @NgModule({
   declarations: [
@@ -50,7 +52,11 @@ import { AdminModuleModule } from './admin-module/admin-module.module';
     AppRoutingModule,
     NgbModule,
   
-    AdminModuleModule //adding admin module entry here so that appmodule knows it.
+    AdminModuleModule,
+    UserModuleModule,
+    //RouterModule.forRoot(routes),
+  
+    BrowserAnimationsModule //adding admin module entry here so that appmodule knows it.
   ],
   providers: [],
   bootstrap: [AppComponent]

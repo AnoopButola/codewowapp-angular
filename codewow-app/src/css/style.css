@@ -39,6 +39,8 @@
 /*  1. Theme default CSS
 /*----------------------------------------*/
 
+
+
 .clear {
     clear: both
 }
@@ -2842,3 +2844,5 @@ textarea {
   padding: 12px 60px;
   text-transform: uppercase;
 }
+
+

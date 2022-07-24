@@ -39,6 +39,22 @@
 /*  1. Theme default CSS
 /*----------------------------------------*/
 
+
+/* Classes being used by admin starts here  theme Added by anoop 
+NOTE:: Make sure we are placing all classes for admin inside this area only so that in futire can change easily 
+*/
+.container{
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Classes being used by admin ends here  here  theme Added by anoop */
+
+
+
+
+
+
 .clear {
     clear: both
 }
